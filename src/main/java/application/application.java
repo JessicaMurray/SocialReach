@@ -1,9 +1,13 @@
 package application;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class application
 {
    public static void main(String[] args)
    {
-      System.out.println("Intial commit");
+      SpringApplication.run(application.class, args);
    }
 }
