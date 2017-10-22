@@ -17,8 +17,7 @@ public class UserController
    @ResponseBody
    public String newUser(@RequestBody User user)
    {
-      userService.createUser(user);
-      return "Success";
+     return userService.createUser(user);
    }
 
    @Autowired
