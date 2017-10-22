@@ -51,4 +51,9 @@ public class User
    {
       this.blogs = blogs;
    }
+
+   public void addBlog(Blog blog)
+   {
+      this.blogs.add(blog);
+   }
 }
